@@ -1,0 +1,18 @@
+﻿<Window x:Class="_182549IPO.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_182549IPO"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <Label Content="Area Calculator" FontSize="14" Width="105"/>
+        <Label Content="Length"/>
+        <TextBox x:Name="txtLength" Width="100" HorizontalAlignment="Left"/>
+        <Label Content="Width"/>
+        <TextBox x:Name="txtWidth" Width="100" HorizontalAlignment="Left"/>
+        <Button x:Name="btnCalculate" Content="Calculate Area" Click="btnCalculate_Click" Width="125"/>
+        <Label x:Name="lblOutput" Content=""/>
+    </StackPanel>
+</Window>
